@@ -1,6 +1,6 @@
 body {
 
-background-color:skyblue;
+background-color:blue;
 
 }
 
@@ -9,6 +9,7 @@ h1 {
 font-family: arial black;
 font-size: 70px;
 text-align: center;
+color:white;
 margin-bottom: 5px;
 
 }
@@ -16,17 +17,20 @@ margin-bottom: 5px;
 h2 {
 
 font-family: arial black;
+color:white;
 
 }
 
 p {
 
 font-family: verdana;
+color:white;
 
 }
 
 h3 {
 
 font-family: helvetica;
+color:white;
 
 }
