@@ -1,16 +1,23 @@
 body {
-	background-color: skyblue;
-	font-family: courier;
+	background-color: midnightblue;
+	font-family: helvetica;
 	text-align: center;
 }
 
 h1 {
-color: seagreen;
+color: yellow;
+font-size: 100px;
 
 
 }
 
+h2 {
+
+	color: white;
+
+}
+
 a {
-color: red;
+color: yellow;
 }
 
