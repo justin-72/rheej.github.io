@@ -8,9 +8,11 @@ function updateCandle() {
 
   mover.style.height = (90 - seconds) + "%";
 
-  if (seconds < 40) {
-    flame.style.backgroundcolor = "orange";
-  }
+if (seconds >= 30) {
+  flame.style.backgroundColor = "red";
+} else {
+  flame.style.backgroundColor = "orange";
+}
 
   timer.innerHTML = date.toLocaleTimeString();
 
