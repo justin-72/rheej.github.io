@@ -1,0 +1,41 @@
+body {
+  font-family: Georgia;
+  background-color: #1a1210;
+  color: white;
+  margin: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.candle {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flame {
+  background-color: orange;
+  width: 30px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.mover {
+  background-color: #f5e6c8;
+  width: 100px;
+  height: 90%;
+  transition: height 1s;
+}
+
+.timer {
+  font-size: 3vh;
+  margin-top: 20px;
+}
